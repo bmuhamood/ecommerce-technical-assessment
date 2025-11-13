@@ -57,7 +57,7 @@ This section helps you quickly evaluate the submission.
 
 ```bash
 # 1. Clone the repository
-git clone [your-github-url]
+git clone https://github.com/bmuhamood/ecommerce-technical-assessment.git
 cd ecommerce-product-module
 
 # 2. Setup Backend
@@ -423,7 +423,7 @@ I am pleased to submit my completed technical assessment for the Technical
 Project Manager (Full Stack & AWS Expertise) position at Dream Come True Group.
 
 Deliverables:
-✅ GitHub Repository: [your-github-url]
+✅ GitHub Repository: https://github.com/bmuhamood/ecommerce-technical-assessment.git
 ✅ Documentation: README.md + PROJECT_MANAGEMENT_PLAN.md
 ✅ Video Walkthrough: [loom-link] (optional)
 ✅ Updated CV: Attached
