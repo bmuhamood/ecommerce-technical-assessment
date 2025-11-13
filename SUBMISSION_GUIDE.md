@@ -415,7 +415,7 @@ curl -X POST http://localhost:5000/api/products \
 ### Email Template
 
 ```
-Subject: Technical Assessment Submission - [Your Name] - TPM Position
+Subject: Technical Assessment Submission - Bbosa Muhamood - TPM Position
 
 Dear HR Team,
 
@@ -445,9 +445,9 @@ are included in the README.md file.
 I look forward to discussing this project and the role in more detail.
 
 Best regards,
-[Your Name]
+Bbosa Muhamood
 [Your Phone]
-[Your Email]
+bbosa2009@gmail.com
 [Your LinkedIn]
 ```
 
@@ -508,7 +508,7 @@ A: The code demonstrates production patterns. For actual production, add:
 
 ## 📞 CONTACT
 
-**Candidate:** [Your Name]  
+**Candidate:** Bbosa Muhamood  
 **Email:** [your-email]  
 **Phone:** [your-phone]  
 **LinkedIn:** [your-linkedin]  

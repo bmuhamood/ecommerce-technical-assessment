@@ -641,9 +641,9 @@ The 2-week delivery timeline is achievable with the outlined 3-developer team st
 
 ---
 
-**Document Prepared By:** [Your Name]  
+**Document Prepared By:** Bbosa Muhamood  
 **Role:** Technical Project Manager  
-**Contact:** [Your Email]  
+**Contact:** bbosa2009@gmail.com  
 **Date:** November 2025
 
 ---

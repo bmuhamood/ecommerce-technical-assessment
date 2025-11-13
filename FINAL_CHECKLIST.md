@@ -1,7 +1,7 @@
 # FINAL SUBMISSION CHECKLIST
 ## eCommerce Product Listing Module - Dream Come True Group
 
-**Candidate:** [Your Name]  
+**Candidate:** Bbosa Muhamood  
 **Date:** November 13, 2025  
 **Position:** Technical Project Manager (Full Stack & AWS Expertise)
 
