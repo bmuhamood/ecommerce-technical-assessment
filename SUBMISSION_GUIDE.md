@@ -453,7 +453,6 @@ linkedin.com/in/bbosa-muhamood-06845576/
 
 ### Attachments
 1. Updated CV (PDF)
-2. Optional: Portfolio samples
 
 ---
 
@@ -509,19 +508,16 @@ A: The code demonstrates production patterns. For actual production, add:
 ## 📞 CONTACT
 
 **Candidate:** Bbosa Muhamood  
-**Email:** [your-email]  
-**Phone:** [your-phone]  
-**LinkedIn:** [your-linkedin]  
-**GitHub:** [your-github]  
-**Portfolio:** [your-portfolio]
+**Email:** bbosa3009@gmail.com  
+**Phone:** +971542522383  
+**LinkedIn:** linkedin.com/in/bbosa-muhamood-06845576/  
+**GitHub:** https://github.com/bmuhamood
 
 **Available for:**
 - Code walkthrough call
 - Architecture discussion
 - Follow-up questions
 - Technical interview
-
-**Preferred contact time:** [Your timezone] - [Available hours]
 
 ---
 
