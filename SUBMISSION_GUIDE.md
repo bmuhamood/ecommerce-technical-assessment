@@ -446,9 +446,9 @@ I look forward to discussing this project and the role in more detail.
 
 Best regards,
 Bbosa Muhamood
-[Your Phone]
++971542522383
 bbosa2009@gmail.com
-[Your LinkedIn]
+linkedin.com/in/bbosa-muhamood-06845576/
 ```
 
 ### Attachments
