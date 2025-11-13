@@ -642,5 +642,5 @@ For API support, contact:
 ---
 
 **Last Updated:** November 13, 2025  
-**Maintained By:** [Your Name]  
+**Maintained By:** Bbosa Muhamood
 **API Version:** 1.0.0
