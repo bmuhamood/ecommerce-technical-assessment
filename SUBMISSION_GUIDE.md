@@ -513,12 +513,6 @@ A: The code demonstrates production patterns. For actual production, add:
 **LinkedIn:** linkedin.com/in/bbosa-muhamood-06845576/  
 **GitHub:** https://github.com/bmuhamood
 
-**Available for:**
-- Code walkthrough call
-- Architecture discussion
-- Follow-up questions
-- Technical interview
-
 ---
 
 ## 🙏 ACKNOWLEDGMENTS
