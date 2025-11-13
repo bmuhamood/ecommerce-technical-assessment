@@ -1,7 +1,7 @@
 # SUBMISSION GUIDE
 ## eCommerce Product Listing Module - Technical Assessment
 
-**Candidate Name:** [Your Full Name]  
+**Candidate Name:** Bbosa Muhamood  
 **Position:** Technical Project Manager (Full Stack & AWS Expertise)  
 **Company:** Dream Come True Group  
 **Submission Date:** November 13, 2025  
