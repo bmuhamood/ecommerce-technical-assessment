@@ -415,7 +415,7 @@ name: Deploy to AWS
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   deploy-frontend:
@@ -689,7 +689,7 @@ npm run test:e2e      # Cypress end-to-end tests
 
 ### Git Workflow
 ```bash
-main (production)
+master (production)
   ↓
 develop (staging)
   ↓
