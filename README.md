@@ -718,10 +718,10 @@ This project is created for assessment purposes for Dream Come True Group.
 
 ## 📞 Contact
 
-**Candidate Name:** [Your Name]  
-**Email:** [Your Email]  
-**LinkedIn:** [Your LinkedIn Profile]  
-**GitHub:** [Your GitHub Profile]
+**Candidate Name:** Bbosa Muhamood  
+**Email:** bbosa2009@gmail.com
+**LinkedIn:** https://www.linkedin.com/in/bbosa-muhamood-06845576/
+**GitHub:** https://github.com/bmuhamood
 
 ---
 
