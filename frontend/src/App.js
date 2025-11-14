@@ -121,7 +121,26 @@ function App() {
       {/* Header */}
       <header className="app-header">
         <div className="container">
-          <h1>🛒 eCommerce Product Catalog</h1>
+          <div className="header-left">
+            <h1>🛒 eCommerce Product Catalog</h1>
+            <nav className="main-nav">
+              <button 
+                className={`nav-link ${!showLoginForm && !showAddForm ? 'active' : ''}`}
+                onClick={() => {
+                  setShowLoginForm(false);
+                  setShowAddForm(false);
+                }}
+              >
+                🏠 Home
+              </button>
+              <button className="nav-link">
+                📦 Products
+              </button>
+              <button className="nav-link">
+                ℹ️ About
+              </button>
+            </nav>
+          </div>
           <div className="header-actions">
             {isAuthenticated ? (
               <>
@@ -169,46 +188,43 @@ function App() {
         )}
 
         {/* Filters */}
-        <div className="filters-section">
-          <div className="filter-group">
-            <label htmlFor="category-filter">Category:</label>
-            <select
-              id="category-filter"
-              value={filters.category}
-              onChange={(e) => handleFilterChange('category', e.target.value)}
-            >
-              <option value="">All Categories</option>
-              <option value="Electronics">Electronics</option>
-              <option value="Accessories">Accessories</option>
-              <option value="Audio">Audio</option>
-              <option value="Storage">Storage</option>
-              <option value="Furniture">Furniture</option>
-              <option value="Wearables">Wearables</option>
-            </select>
-          </div>
+        {!showLoginForm && !showAddForm && (
+          <div className="filters-section">
+            <div className="filter-group">
+              <label htmlFor="category-filter">Category:</label>
+              <select
+                id="category-filter"
+                value={filters.category}
+                onChange={(e) => handleFilterChange('category', e.target.value)}
+              >
+                <option value="">All Categories</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Accessories">Accessories</option>
+                <option value="Audio">Audio</option>
+                <option value="Storage">Storage</option>
+                <option value="Furniture">Furniture</option>
+                <option value="Wearables">Wearables</option>
+              </select>
+            </div>
 
-          <div className="filter-group">
-            <label htmlFor="stock-filter">Stock Status:</label>
-            <select
-              id="stock-filter"
-              value={filters.stock}
-              onChange={(e) => handleFilterChange('stock', e.target.value)}
-            >
-              <option value="">All Stock Status</option>
-              <option value="In Stock">In Stock</option>
-              <option value="Low Stock">Low Stock</option>
-              <option value="Out of Stock">Out of Stock</option>
-            </select>
+            <div className="filter-group">
+              <label htmlFor="stock-filter">Stock Status:</label>
+              <select
+                id="stock-filter"
+                value={filters.stock}
+                onChange={(e) => handleFilterChange('stock', e.target.value)}
+              >
+                <option value="">All Stock Status</option>
+                <option value="In Stock">In Stock</option>
+                <option value="Low Stock">Low Stock</option>
+                <option value="Out of Stock">Out of Stock</option>
+              </select>
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Product List */}
-        {loading ? (
-          <div className="loading">
-            <div className="spinner"></div>
-            <p>Loading products...</p>
-          </div>
-        ) : error ? (
+        {!showLoginForm && !showAddForm && (error ? (
           <div className="error-message">
             <p>{error}</p>
             <button className="btn btn-primary" onClick={fetchProducts}>
@@ -217,10 +233,10 @@ function App() {
           </div>
         ) : (
           <>
-            <ProductList products={products} />
+            <ProductList products={products} isLoading={loading} />
             
             {/* Pagination */}
-            {pagination.totalPages > 1 && (
+            {!loading && pagination.totalPages > 1 && (
               <div className="pagination">
                 <button
                   className="btn btn-secondary"
@@ -245,7 +261,7 @@ function App() {
               </div>
             )}
           </>
-        )}
+        ))}
       </main>
 
       {/* Footer */}
